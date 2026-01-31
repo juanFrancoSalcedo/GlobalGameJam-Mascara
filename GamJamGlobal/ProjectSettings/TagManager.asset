@@ -9,14 +9,14 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Jugador
   - Water
   - UI
-  - Bullet
-  - Player
-  - Enemy
-  - PlatformHitPlayer
-  - PlatformIgnorePlayer
+  - Floor
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

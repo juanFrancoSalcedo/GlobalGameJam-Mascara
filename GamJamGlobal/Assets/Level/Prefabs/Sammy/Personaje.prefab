@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8944327609022217526}
   m_Layer: 0
   m_Name: groundCheck
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,9 +45,9 @@ GameObject:
   - component: {fileID: 826039142500356714}
   - component: {fileID: 4535894210622784300}
   - component: {fileID: 6555382560870281858}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Personaje
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,13 +212,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05adc1784c2e82c4e91dcf57c0427d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Personaje
-  speed: 1.5
-  jumpForce: 3.5
+  speed: 1.2
+  jumpForce: 3
   groundCheck: {fileID: 8944327609022217526}
   groundRadius: 0.1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 64
 --- !u!95 &6555382560870281858
 Animator:
   serializedVersion: 7
