@@ -4,36 +4,31 @@ using System.Collections;
 
 public class EnvirtomentManager : MonoBehaviour
 {
-    [SerializeField] bool isRandom;
+    [SerializeField] int count =0;
+    [SerializeField] float gap = 1f;
     [SerializeField] private List<PlatformSettings> listSettings = new List<PlatformSettings>();
     [SerializeField] private Transform player;
-    [SerializeField] private List<PlatformHandler> listInstances = new List<PlatformHandler>();
+    private List<GameObject> listInstances = new List<GameObject>();
+
+    float startedPosition = 0;
 
     private IEnumerator Start() 
     {
-
-        if (isRandom)
+        startedPosition = transform.position.y;
+        for (int i = 0; i < count; i++)
         {
-            foreach (var setting in listSettings)
-            {
-                GameObject clonePlatform = Instantiate(listSettings[Random.Range(0,listSettings.Count)].prefab, new Vector3(0, listInstances.Count * 2, 0), Quaternion.identity);
-                PlatformHandler handler = clonePlatform.AddComponent<PlatformHandler>();
-                listInstances.Add(handler);
-                yield return new WaitForEndOfFrame();
-            }
+            CreateRandom();
+            yield return new WaitForEndOfFrame();
         }
-        else
-        { 
-            foreach (var setting in listSettings)
-            {
-                GameObject clonePlatform = Instantiate(setting.prefab, new Vector3(0, listInstances.Count * 2, 0), Quaternion.identity);
-                PlatformHandler handler = clonePlatform.AddComponent<PlatformHandler>();
-                listInstances.Add(handler);
-                yield return new WaitForEndOfFrame();
-            }
-        }
-
     }
+
+    private void CreateRandom()
+    {
+        GameObject clonePlatform = Instantiate(listSettings[Random.Range(0,listSettings.Count)].prefab, new Vector3(0,PosZ, 0), Quaternion.identity);
+        listInstances.Add(clonePlatform);
+    }
+
+    private float PosZ => startedPosition + (listInstances.Count * gap);
 }
 
 [System.Serializable]
