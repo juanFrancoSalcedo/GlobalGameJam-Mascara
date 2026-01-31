@@ -1,22 +1,24 @@
 using UnityEngine;
 
+
+[RequireComponent(typeof(PlayerUpperChecker))]
 public class UpperPlatform : MonoBehaviour
 {
     [SerializeField] int layerIgnorePlayer;
     [SerializeField] int layerAllowPlayer;
-    [SerializeField] Vector3 positionOffset;
-    GameObject player;
+    
+    PlayerUpperChecker upperChecker;
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        upperChecker = GetComponent<PlayerUpperChecker>();
     }
 
     private void Update()
     {
-        if (player.transform.position.y < transform.position.y)
-            gameObject.layer = layerIgnorePlayer;
-        else
+        if (upperChecker.IsPlayerAbove())
             gameObject.layer = layerAllowPlayer;
+        else
+            gameObject.layer = layerIgnorePlayer;
 
     }
 }

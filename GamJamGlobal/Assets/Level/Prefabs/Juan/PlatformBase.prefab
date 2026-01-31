@@ -5361,7 +5361,9 @@ GameObject:
   - component: {fileID: 5252048039374067246}
   - component: {fileID: 6012024920134309894}
   - component: {fileID: 1430303886327172625}
-  m_Layer: 0
+  - component: {fileID: 524263631287961400}
+  - component: {fileID: 7361197238796235727}
+  m_Layer: 6
   m_Name: PlatformBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5423,7 +5425,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.012288161, y: 0.23353297}
+  m_Offset: {x: 0.012288153, y: 0.19968124}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5433,7 +5435,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.25422543, y: 0.44019312}
+  m_Size: {x: 0.25422543, y: 0.37248966}
   m_EdgeRadius: 0
 --- !u!114 &6012024920134309894
 MonoBehaviour:
@@ -5474,3 +5476,30 @@ MonoBehaviour:
   onCollisionExit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &524263631287961400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6631882673481226364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478296e8ede61a646b12a3b3450ccc86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerUpperChecker
+  positionOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &7361197238796235727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6631882673481226364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5f1a0173ca874d9e34684f011eb95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UpperPlatform
+  layerIgnorePlayer: 7
+  layerAllowPlayer: 6
