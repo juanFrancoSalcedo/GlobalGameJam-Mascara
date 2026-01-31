@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 
-public class EnvirtomentManager : MonoBehaviour
+public class PlatformManager : MonoBehaviour
 {
     [SerializeField] int count =0;
     [SerializeField] float gap = 1f;
@@ -17,14 +17,21 @@ public class EnvirtomentManager : MonoBehaviour
         startedPosition = transform.position.y;
         for (int i = 0; i < count; i++)
         {
-            CreateRandom();
+            //easier to player
+            if(i<10)
+                CreateRandom(listSettings[Random.Range(0, 2)]);
+            else if(i>40)
+                CreateRandom(listSettings[Random.Range(2, listSettings.Count)]);
+            else
+                CreateRandom(listSettings[Random.Range(0, listSettings.Count)]);
+
             yield return new WaitForEndOfFrame();
         }
     }
 
-    private void CreateRandom()
+    private void CreateRandom(PlatformSettings settings)
     {
-        GameObject clonePlatform = Instantiate(listSettings[Random.Range(0,listSettings.Count)].prefab, new Vector3(0,PosZ, 0), Quaternion.identity);
+        GameObject clonePlatform = Instantiate(settings.prefab, new Vector3(0,PosZ, 0), Quaternion.identity);
         listInstances.Add(clonePlatform);
     }
 

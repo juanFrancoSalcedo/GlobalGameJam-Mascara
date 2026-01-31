@@ -1,17 +1,23 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
+
+[RequireComponent(typeof(PlayerUpperChecker))]
 public class PlatformHandler: MonoBehaviour
 {
     [SerializeField] LifePlatformData data;
     CollisionDetector2D collisionDetector;
-    LifePlatform lifePlatform;
+    LifeModel lifePlatform;
     [SerializeField] private ParticleSystem particles;
+    PlayerUpperChecker upperChecker;
+    private void Start()
+    {
+        upperChecker = GetComponent<PlayerUpperChecker>();
+    }
 
     private void Awake()
     {
-        lifePlatform = new LifePlatform(data.hp,Dead);
+        lifePlatform = new LifeModel(data.hp,Dead);
         collisionDetector = GetComponent<CollisionDetector2D>();
     }
 
@@ -34,6 +40,8 @@ public class PlatformHandler: MonoBehaviour
 
     private void StartDamage(Collision2D d)
     {
+        if (!upperChecker.IsPlayerAbove())
+            return;
         StopDamage(d);
         damageCoroutine = StartCoroutine(DoDamage());
     }
@@ -45,7 +53,7 @@ public class PlatformHandler: MonoBehaviour
         { 
             lifePlatform.MakeDamageBase();
             particles.Play();
-            yield return new WaitForSeconds(0.9f);
+            yield return new WaitForSeconds(1f);
         }
         damageCoroutine = null;
     }
@@ -54,35 +62,6 @@ public class PlatformHandler: MonoBehaviour
     {
         //Improve this
         gameObject.SetActive(false);
-    }
-}
-
-public class LifePlatform
-{
-    public int hp;
-    public Action onDead;
-
-    public LifePlatform(int hp, Action onDead)
-    {
-        this.hp = hp;
-        this.onDead = onDead;
-    }
-
-    public void MakeDamageBase()
-    {
-        hp --;
-        CheckDead();
-    }
-
-    public bool IsDead => hp <=0;
-    public bool CheckDead() 
-    {
-        if (IsDead)
-        {
-            onDead?.Invoke();
-            return true;
-        }
-        return false;
     }
 }
 
