@@ -1,14 +1,16 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 
 [RequireComponent(typeof(PlayerUpperChecker))]
-public class PlatformHandler: MonoBehaviour
+public class PlatformHandler : MonoBehaviour
 {
     [SerializeField] LifePlatformData data;
+    [SerializeField] private ParticleSystem particles;
+    [SerializeField] private List<Animator> animators = new List<Animator>();
     CollisionDetector2D collisionDetector;
     LifeModel lifePlatform;
-    [SerializeField] private ParticleSystem particles;
     PlayerUpperChecker upperChecker;
     private void Start()
     {
@@ -17,7 +19,7 @@ public class PlatformHandler: MonoBehaviour
 
     private void Awake()
     {
-        lifePlatform = new LifeModel(data.hp,Dead);
+        lifePlatform = new LifeModel(data.hp, WaitDisableCollision);
         collisionDetector = GetComponent<CollisionDetector2D>();
     }
 
@@ -34,12 +36,18 @@ public class PlatformHandler: MonoBehaviour
     }
     private void StopDamage(Collision2D d)
     {
+        if(!TryGetComponent<Personaje>(out var perso))
+            return;
         if (damageCoroutine != null)
             StopCoroutine(damageCoroutine);
+        animators.ForEach(a => a.SetBool("Damage", false));
     }
 
     private void StartDamage(Collision2D d)
     {
+        if (!TryGetComponent<Personaje>(out var perso))
+            return;
+
         if (!upperChecker.IsPlayerAbove())
             return;
         StopDamage(d);
@@ -53,16 +61,22 @@ public class PlatformHandler: MonoBehaviour
         { 
             lifePlatform.MakeDamageBase();
             particles.Play();
+            animators.ForEach(a => a.SetBool("Damage",true));
             yield return new WaitForSeconds(1f);
         }
         damageCoroutine = null;
     }
 
-    public void Dead() 
+    #region Fall Animation
+    private void WaitDisableCollision() => Invoke(nameof(WaitDead), 0.7f);
+
+    private void WaitDead() 
     {
-        //Improve this
-        gameObject.SetActive(false);
+        animators.ForEach(a => a.SetBool("Fall", true));
+        Invoke(nameof(Dead),1.2f);
     }
+    public void Dead() => gameObject.SetActive(false);
+    #endregion
 }
 
 [System.Serializable]

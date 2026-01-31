@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3432320595609744703}
   - component: {fileID: 5077726518465298595}
   - component: {fileID: 2937048536528964799}
+  - component: {fileID: 8817254207942617560}
   m_Layer: 0
   m_Name: terrestre
   m_TagString: Untagged
@@ -190,3 +191,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!114 &8817254207942617560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2939382536228634986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11cf97f228f26384987dbe5b8a8f2856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HPHandler
+  data:
+    hp: 2
