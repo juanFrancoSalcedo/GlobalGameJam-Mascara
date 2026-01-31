@@ -7,14 +7,15 @@ public class Gun : MonoBehaviour
     [SerializeField] private float bulletSpeed = 10f;
     [SerializeField] private float timeReload = 1f;
 
-
-
+    float sumTime =0;
 
     private void Update()
     {
-        if (Input.GetMouseButton(0)) 
+        sumTime += Time.deltaTime;
+        if (Input.GetMouseButton(0) && sumTime>=timeReload) 
         {
             Shot();
+            sumTime = 0;
         }
     }
 

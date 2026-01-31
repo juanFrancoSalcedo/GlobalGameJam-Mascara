@@ -4,7 +4,7 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] private float timeLife = 2f;
     [SerializeField] private float speed = 10f;
-
+    [SerializeField] private ImpactEffect impact;
     Rigidbody2D rb;
 
     private void Awake()
@@ -15,6 +15,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Instantiate(impact,transform.position,Quaternion.identity);
         Destroy(gameObject);
     }
 

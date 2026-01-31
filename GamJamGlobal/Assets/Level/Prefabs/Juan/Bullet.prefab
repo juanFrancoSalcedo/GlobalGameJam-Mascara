@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1261906679442140362}
   - component: {fileID: 4162152586135930003}
   - component: {fileID: 1557030378818384292}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.78113204, g: 0.44502375, b: 0.045688815, a: 1}
@@ -170,4 +170,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   timeLife: 2
-  speed: 100
+  speed: 10
+  impact: {fileID: 2360435496296053606, guid: c0ff303c611c95b45add5ca8a5bbe5f6, type: 3}
