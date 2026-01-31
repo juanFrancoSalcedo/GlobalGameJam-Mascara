@@ -1,19 +1,20 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour 
 {
-    [SerializeField] private float timeLife = 2f;
-    [SerializeField] private float speed = 10f;
-    [SerializeField] private ImpactEffect impact;
+    [SerializeField] protected float timeLife = 2f;
+    [SerializeField] protected float speed = 10f;
+    [SerializeField] protected ImpactEffect impact;
     Rigidbody2D rb;
 
-    private void Awake()
+    protected void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         Destroy(gameObject, timeLife);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    protected void OnTriggerEnter2D(Collider2D other)
     {
         if (other.TryGetComponent<HPHandler>(out var compo))
         { 

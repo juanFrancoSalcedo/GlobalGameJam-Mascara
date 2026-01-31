@@ -36,18 +36,14 @@ public class PlatformHandler : MonoBehaviour
     }
     private void StopDamage(Collision2D d)
     {
-        if(!TryGetComponent<Personaje>(out var perso))
-            return;
         if (damageCoroutine != null)
             StopCoroutine(damageCoroutine);
         animators.ForEach(a => a.SetBool("Damage", false));
+        animators.ForEach(a => a.SetBool("Fall", false));
     }
 
     private void StartDamage(Collision2D d)
     {
-        if (!TryGetComponent<Personaje>(out var perso))
-            return;
-
         if (!upperChecker.IsPlayerAbove())
             return;
         StopDamage(d);
