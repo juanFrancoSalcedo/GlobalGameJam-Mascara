@@ -393,6 +393,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f77d4411827ac34eb6f52df1a90b9b8, type: 3}
+--- !u!212 &320030191 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 9091469240854073760, guid: 69a9f885544a883408d2cf4bd03627a7, type: 3}
+  m_PrefabInstance: {fileID: 3046128857908362865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &419385405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1440,6 +1445,10 @@ PrefabInstance:
       propertyPath: textCoin
       value: 
       objectReference: {fileID: 1499273192}
+    - target: {fileID: 3547891339385340260, guid: 69a9f885544a883408d2cf4bd03627a7, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 320030191}
     - target: {fileID: 3952690410323696650, guid: 69a9f885544a883408d2cf4bd03627a7, type: 3}
       propertyPath: m_Name
       value: Personaje

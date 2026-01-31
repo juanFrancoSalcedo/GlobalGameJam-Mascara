@@ -7,6 +7,8 @@ public class Personaje : MonoBehaviour
     private Rigidbody2D rb2d;
     private float move;
 
+    private int nJumps;
+    private int nJumpsValue;
     public float jumpForce = 5;
     private bool isGrounded;
     public Transform groundCheck;
@@ -32,9 +34,15 @@ public class Personaje : MonoBehaviour
 
             transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && nJumpsValue >=0)
         {
             rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpForce);
+            nJumpsValue --;
+        }
+
+        if (isGrounded)
+        {
+            nJumpsValue = nJumps;
         }
 
         animator.SetFloat("Speed",Mathf.Abs(move));
