@@ -16,6 +16,7 @@ public class Personaje : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -32,6 +33,9 @@ public class Personaje : MonoBehaviour
         {
             rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpForce);
         }
+
+        animator.SetFloat("Speed",Mathf.Abs(move));
+        animator.SetFloat("VerticalVelocity", rb2d.linearVelocity.y);
 
     }
 
