@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 685299881163994694}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0022, y: -0.0668, z: 0}
+  m_LocalPosition: {x: 0.0022, y: -0.0582, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 1605994063418998363}
   - component: {fileID: 9025956585167187498}
   - component: {fileID: 826039142500356714}
-  - component: {fileID: 6051185992029702258}
+  - component: {fileID: 4535894210622784300}
   - component: {fileID: 6555382560870281858}
   m_Layer: 0
   m_Name: Personaje
@@ -143,7 +143,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1c8e318b4853f2f42be7a68463bfbfbd, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -188,7 +188,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0053981394, y: -0.01174888}
+  m_Offset: {x: 0.0041741803, y: -0.007297892}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -198,9 +198,9 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.049506694, y: 0.11474848}
+  m_Size: {x: 0.06011434, y: 0.11237427}
   m_EdgeRadius: 0
---- !u!114 &6051185992029702258
+--- !u!114 &4535894210622784300
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,16 +209,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 5689870716069567569}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4bb009ac33e38d439475188fd57922c, type: 3}
+  m_Script: {fileID: 11500000, guid: 05adc1784c2e82c4e91dcf57c0427d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Personaje
   speed: 1.5
-  jumpForce: 5
+  jumpForce: 3.5
   groundCheck: {fileID: 8944327609022217526}
-  groundRadius: 1.02
+  groundRadius: 0.1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
 --- !u!95 &6555382560870281858
 Animator:
   serializedVersion: 7

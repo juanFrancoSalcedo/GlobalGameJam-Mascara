@@ -36,6 +36,7 @@ public class Personaje : MonoBehaviour
 
         animator.SetFloat("Speed",Mathf.Abs(move));
         animator.SetFloat("VerticalVelocity", rb2d.linearVelocity.y);
+        animator.SetBool("isGrounded", isGrounded); 
 
     }
 
