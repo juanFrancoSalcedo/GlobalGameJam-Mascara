@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class Personaje : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class Personaje : MonoBehaviour
     public LayerMask groundLayer;
 
     private Animator animator;
+    private int coins;
+    public TMP_Text textCoin;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -43,5 +46,15 @@ public class Personaje : MonoBehaviour
     private void FixedUpdate()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.CompareTag("Coin"))
+        {
+            Destroy(collision.gameObject);
+            coins++;
+            textCoin.text = coins.ToString();
+        }
     }
 }
