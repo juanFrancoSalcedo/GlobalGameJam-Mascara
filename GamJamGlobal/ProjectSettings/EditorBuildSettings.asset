@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/GamScene.unity
     guid: 13000533a268d77469603469e1e203dc
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
     path: Assets/Scenes/Sammy White Box.unity
     guid: e6e69bf8e115e9f48a7405d8d399abf7
   - enabled: 1

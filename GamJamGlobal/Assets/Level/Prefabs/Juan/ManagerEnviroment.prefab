@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4212447738222262962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7757798174033156279}
+  - component: {fileID: 2630017187366239141}
+  - component: {fileID: 3191695045368198821}
+  - component: {fileID: 1961430217442351477}
+  m_Layer: 0
+  m_Name: ManagerEnviroment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7757798174033156279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4212447738222262962}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2630017187366239141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4212447738222262962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6be61a19d029214fb1215b7692e0b4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnvirtomentManager
+  count: 60
+  gap: 0.5
+  listSettings:
+  - prefab: {fileID: 7841456158224080903, guid: 65da29221f73c234cb42ba60d0ab0b4d, type: 3}
+  - prefab: {fileID: 8907620065947583744, guid: b74a4419d5f4c0d46925a932b747eda1, type: 3}
+  - prefab: {fileID: 8907620065947583744, guid: e02a7241cdda389449df9b9c5b7d6d77, type: 3}
+  - prefab: {fileID: 8907620065947583744, guid: 2a7b6cf887371114a87b39a69a4904b9, type: 3}
+  - prefab: {fileID: 7841456158224080903, guid: 393fdf97e1ce266479c1e963ca3ad7ff, type: 3}
+  - prefab: {fileID: 7841456158224080903, guid: 02f4d44871a17234ba53e6bfd345efc0, type: 3}
+  - prefab: {fileID: 7841456158224080903, guid: 28c7c88d4f17cec4c98a9f91da259140, type: 3}
+  - prefab: {fileID: 3232629679244746430, guid: 0ad394f05d45c2b40a2fa231b4108e7c, type: 3}
+  - prefab: {fileID: 3232629679244746430, guid: 0ad394f05d45c2b40a2fa231b4108e7c, type: 3}
+  player: {fileID: 0}
+--- !u!114 &3191695045368198821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4212447738222262962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8c3ee8dc2ab2ce49b084a330175e234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::B_Extensions.HierarchyStates.ColorHierarchySetter
+  colorInHierarchy: {r: 0, g: 0, b: 0, a: 1}
+--- !u!114 &1961430217442351477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4212447738222262962}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6be61a19d029214fb1215b7692e0b4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnvirtomentManager
+  count: 60
+  gap: 0.5
+  listSettings:
+  - prefab: {fileID: 8907620065947583744, guid: 2857319dc7b98564e81d9a7c91150adb, type: 3}
+  - prefab: {fileID: 8907620065947583744, guid: 2857319dc7b98564e81d9a7c91150adb, type: 3}
+  - prefab: {fileID: 8907620065947583744, guid: 2857319dc7b98564e81d9a7c91150adb, type: 3}
+  - prefab: {fileID: 8907620065947583744, guid: 2857319dc7b98564e81d9a7c91150adb, type: 3}
+  - prefab: {fileID: 8907620065947583744, guid: 2857319dc7b98564e81d9a7c91150adb, type: 3}
+  - prefab: {fileID: 8907620065947583744, guid: 2857319dc7b98564e81d9a7c91150adb, type: 3}
+  player: {fileID: 0}

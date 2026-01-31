@@ -7,9 +7,12 @@ public class Aimer : MonoBehaviour
     [SerializeField] Transform player;
     [SerializeField] Camera cam;
     [SerializeField] float rotationOffset = 0f;
+    [SerializeField] SpriteRenderer spriteRenderer;
 
     void Update()
     {
+        spriteRenderer.sortingOrder = (player.localScale.x<0)?-1:3;
+
         if (player != null)
             transform.position = player.position;
 
