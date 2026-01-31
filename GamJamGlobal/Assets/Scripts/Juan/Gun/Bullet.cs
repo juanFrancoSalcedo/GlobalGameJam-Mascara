@@ -15,16 +15,21 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.TryGetComponent<HPHandler>(out var compo))
+        { 
+            print(other.name);
+            compo.AccessLifeModel().MakeDamageBase();
+        }
+
         Instantiate(impact,transform.position,Quaternion.identity);
         Destroy(gameObject);
     }
 
     public void Shot(Vector2 direction, float shotSpeed)
     {
-        if (rb == null) rb = GetComponent<Rigidbody2D>();
-
         Vector2 dir = direction;
-        if (dir == Vector2.zero) dir = Vector2.right;
+        if (dir == Vector2.zero) 
+            dir = Vector2.right;
 
         rb.linearVelocity = dir.normalized * shotSpeed;
 
