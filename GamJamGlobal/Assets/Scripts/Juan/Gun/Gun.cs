@@ -8,7 +8,6 @@ public class Gun : Singleton<Gun>
     [SerializeField] private float bulletSpeed = 10f;
     [SerializeField] private float timeReload = 1f;
     
-
     float sumTime =0;
     private void Update()
     {

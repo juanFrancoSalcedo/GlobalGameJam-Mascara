@@ -1,0 +1,27 @@
+using System.Collections;
+using UnityEngine;
+
+public class PresentationHandler : MonoBehaviour
+{
+    [SerializeField] private GameObject[] slides;
+
+    public static bool Shown = false;
+    IEnumerator Start()
+    {
+        foreach (var slide in slides)
+        {
+            slide.SetActive(true);
+            yield return new WaitForSeconds(6f);
+            slide.SetActive(false);
+        }
+        Shown = true;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space)) 
+        {
+            gameObject.SetActive(false);
+        }
+    }
+}
