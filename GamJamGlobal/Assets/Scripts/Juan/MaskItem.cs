@@ -27,7 +27,7 @@ public class MaskModel: ICopy<MaskModel>
 {
     public MaskType type;
     public Sprite sptMask;
-
+    public Bullet bullet;
     public MaskModel Copy()
     {
         return (MaskModel)this.MemberwiseClone();

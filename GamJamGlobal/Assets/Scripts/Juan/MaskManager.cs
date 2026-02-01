@@ -59,6 +59,7 @@ public class MaskManager : Singleton<MaskManager>
         currentMask = collectedMask[0];
         mask = currentMask.type;
         collectedMask.RemoveAt(collectedMask.Count-1);
+        Gun.Instance.SetBullet(currentMask.bullet);
         ShowMask();
     }
 
@@ -71,6 +72,7 @@ public class MaskManager : Singleton<MaskManager>
         collectedMask.Add(firstMask);
         currentMask = collectedMask[0];
         mask = currentMask.type;
+        Gun.Instance.SetBullet(currentMask.bullet);
         ShowMask();
     }
 

@@ -9,10 +9,6 @@ public class EventBus : Singleton<EventBus>
     public static void Susbscribe(EventGlobalType type, Action action) 
     {
         keyValuePairs.Add(type, action);
-        foreach (var item in keyValuePairs) 
-        {
-            print(item.Key);
-        }
     }
 
     public static void Unsusbscribe(EventGlobalType type)
