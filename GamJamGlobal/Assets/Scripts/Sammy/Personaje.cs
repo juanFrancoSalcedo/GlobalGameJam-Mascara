@@ -76,13 +76,13 @@ public class Personaje : MonoBehaviour
         if (collision.transform.CompareTag("enemigo"))
         {
             Destroy(gameObject);
-            EventBus.Instance.Invoke(EventGlobalType.Lost);
         }
     }
 
     private void OnDestroy()
     {
         EventBus.Instance.PositionPlayer(transform.position, initPos);
+        EventBus.Instance.Invoke(EventGlobalType.Lost);
     }
 
 }
