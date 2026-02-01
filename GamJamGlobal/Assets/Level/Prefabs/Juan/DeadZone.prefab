@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b466075d08170ed4095f384888be2d3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeadZone
-  yOffset: -3
+  yOffset: -2
 --- !u!61 &8832701921469780070
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.98039216}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
