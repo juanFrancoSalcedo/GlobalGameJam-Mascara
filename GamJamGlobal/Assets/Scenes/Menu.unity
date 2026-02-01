@@ -3144,7 +3144,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -3154,8 +3154,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 4695072405979122140, guid: 45a49da1ee077874691733ce2f3db043, type: 3}
+    m_PressedSprite: {fileID: 5523247469241555269, guid: 152f1eeff72d46941af22eff64485a13, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -3576,13 +3576,13 @@ PrefabInstance:
       addedObject: {fileID: 617720130}
     - targetCorrespondingSourceObject: {fileID: 6515293388958439092, guid: 606ea4120da5ce04c90c618559a67e4d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1265031367}
-    - targetCorrespondingSourceObject: {fileID: 6515293388958439092, guid: 606ea4120da5ce04c90c618559a67e4d, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1752217679}
     - targetCorrespondingSourceObject: {fileID: 6515293388958439092, guid: 606ea4120da5ce04c90c618559a67e4d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 879557230}
+    - targetCorrespondingSourceObject: {fileID: 6515293388958439092, guid: 606ea4120da5ce04c90c618559a67e4d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1265031367}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2623586445232867237, guid: 606ea4120da5ce04c90c618559a67e4d, type: 3}
       insertIndex: -1
