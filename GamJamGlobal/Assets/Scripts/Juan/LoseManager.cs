@@ -1,9 +1,12 @@
+using DG.Tweening;
 using System;
 using UnityEngine;
 
-public class UIManager : MonoBehaviour
+public class LoseManager : MonoBehaviour
 {
     [SerializeField] GameObject panelLost;
+    [SerializeField] Transform playerImage;
+    [SerializeField] private int finishY;
 
     void OnEnable()
     {
@@ -18,5 +21,10 @@ public class UIManager : MonoBehaviour
     private void ShowPanel()
     {
         panelLost.SetActive(true);
+    }
+
+    private void AnimateFinish() 
+    {
+        //player.DOLocalMoveY(0);
     }
 }

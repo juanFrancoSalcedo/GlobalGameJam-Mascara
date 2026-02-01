@@ -28,7 +28,8 @@ public class DeadZone : MonoBehaviour
 
     private void MakeLose(Transform transform)
     {
-        print("Lose");
+        EventBus.Instance.Invoke(EventGlobalType.Lost);
+        Destroy(player);
     }
 
     private void Update()
