@@ -9,6 +9,11 @@ public class Aimer : MonoBehaviour
     [SerializeField] float rotationOffset = 0f;
     [SerializeField] SpriteRenderer spriteRenderer;
 
+    private void Awake()
+    {
+        transform.SetParent(null);
+    }
+
     void Update()
     {
         spriteRenderer.sortingOrder = (player.localScale.x<0)?-1:3;
