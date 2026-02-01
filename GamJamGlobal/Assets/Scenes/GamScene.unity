@@ -4163,6 +4163,18 @@ PrefabInstance:
       propertyPath: configureMask.Array.data[3].bullet
       value: 
       objectReference: {fileID: 3315904313667836589, guid: 744d4ab872f50624f919ead11efda5d1, type: 3}
+    - target: {fileID: 2262986738097283106, guid: 69a9f885544a883408d2cf4bd03627a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262986738097283106, guid: 69a9f885544a883408d2cf4bd03627a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3547891339385340260, guid: 69a9f885544a883408d2cf4bd03627a7, type: 3}
+      propertyPath: offsetLeft.x
+      value: -0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 3952690410323696650, guid: 69a9f885544a883408d2cf4bd03627a7, type: 3}
       propertyPath: m_Name
       value: Personaje 1
@@ -8444,6 +8456,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1195979225}
+    - target: {fileID: 8318399007586467718, guid: a657322a81681eb42b3a5d0f554213df, type: 3}
+      propertyPath: offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8967223747537297891, guid: a657322a81681eb42b3a5d0f554213df, type: 3}
       propertyPath: m_Name
       value: FollowCamera
