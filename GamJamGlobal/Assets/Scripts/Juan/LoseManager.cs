@@ -10,12 +10,12 @@ public class LoseManager : MonoBehaviour
 
     void OnEnable()
     {
-        EventBus.Susbscribe(EventGlobalType.Lost,ShowPanel);
+        EventBus.Instance.Susbscribe(EventGlobalType.Lost,ShowPanel);
     }
 
     private void OnDisable()
     {
-        EventBus.Unsusbscribe(EventGlobalType.Lost);
+        EventBus.Instance.Unsusbscribe(EventGlobalType.Lost);
     }
 
     private void ShowPanel()

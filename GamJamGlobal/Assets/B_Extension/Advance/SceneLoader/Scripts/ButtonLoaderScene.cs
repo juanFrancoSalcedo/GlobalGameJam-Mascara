@@ -21,11 +21,14 @@ public class ButtonLoaderScene : BaseButtonAttendant
     private void LoadScene()
     {
         if (reload)
-            callerLoading.LoadScene();
-        else
         {
             var active = SceneManager.GetActiveScene();
             SceneManager.LoadScene(active.name);
+        }
+        else
+        {
+            callerLoading.LoadScene();
+
         }
 
         if(pauseOnClick)

@@ -12,13 +12,13 @@ public class GoalMask : MonoBehaviour
     }
     private void OnEnable()
     {
-        EventBus.Susbscribe(EventGlobalType.Win,ShowWin);
+        EventBus.Instance.Susbscribe(EventGlobalType.Win,ShowWin);
         trigger.OnTriggerEntered += (t)=>EventBus.Instance.Invoke(EventGlobalType.Win);
     }
 
     private void OnDisable()
     {
-        EventBus.Unsusbscribe(EventGlobalType.Win);
+        EventBus.Instance.Unsusbscribe(EventGlobalType.Win);
         trigger.OnTriggerEntered -= (t) => EventBus.Instance.Invoke(EventGlobalType.Win);
     }
 

@@ -134,10 +134,10 @@ MonoBehaviour:
     _speed: 0.1
   dataNormal:
     _visual: {fileID: 5107603377687816822}
-    _speed: 0.5
+    _speed: 0.4
   dataAgressive:
     _visual: {fileID: 7577597661042561130}
-    _speed: 1
+    _speed: 0.7
   mineMask: 2
 --- !u!1 &5107603377687816822
 GameObject:
@@ -269,7 +269,7 @@ MonoBehaviour:
   stateEnable: 0
   timeDelay: 0
   reference:
-    UniqueId: HXPQ1FTK2R2F
+    UniqueId: 76E2FXUXZRPD
     handler: {fileID: 5007341202589493475}
     sceneName: Juan White Box
 --- !u!1 &7427042278873619780
@@ -402,7 +402,7 @@ MonoBehaviour:
   stateEnable: 0
   timeDelay: 0
   reference:
-    UniqueId: PXD66ZQCGNCF
+    UniqueId: ONAYQL7PUBZH
     handler: {fileID: 569166703561488756}
     sceneName: Juan White Box
 --- !u!1 &7577597661042561130
@@ -488,7 +488,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1619152524719369896, guid: 2fbd65e0812d1a146877f3eb335f09f5, type: 3}
+  m_Sprite: {fileID: 4947102552151799836, guid: 1cd3f7e0007cda54f86c3be37a20a672, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -535,6 +535,6 @@ MonoBehaviour:
   stateEnable: 0
   timeDelay: 0
   reference:
-    UniqueId: W9J5L3RDAAXA
+    UniqueId: RCEW8H2NYJDK
     handler: {fileID: 623693730567318243}
     sceneName: Juan White Box
