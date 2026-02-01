@@ -419,8 +419,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2623586445232867237, guid: 606ea4120da5ce04c90c618559a67e4d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7065783013039120710}
   m_SourcePrefab: {fileID: 100100000, guid: 606ea4120da5ce04c90c618559a67e4d, type: 3}
+--- !u!1 &7065783013039120709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2623586445232867237, guid: 606ea4120da5ce04c90c618559a67e4d, type: 3}
+  m_PrefabInstance: {fileID: 7065783013039120708}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7065783013039120710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7065783013039120709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335135f2a02815c42ba50f7bb2527611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VideoLoader
+  nameVideo: Record.mp4
+  videoPlayer: {fileID: 7065783013039120711}
+--- !u!328 &7065783013039120711 stripped
+VideoPlayer:
+  m_CorrespondingSourceObject: {fileID: 238076033223606254, guid: 606ea4120da5ce04c90c618559a67e4d, type: 3}
+  m_PrefabInstance: {fileID: 7065783013039120708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

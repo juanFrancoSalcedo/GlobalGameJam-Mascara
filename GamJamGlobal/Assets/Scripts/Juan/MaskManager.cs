@@ -34,6 +34,7 @@ public class MaskManager : Singleton<MaskManager>
     {
         if(!collectedMask.Contains(configureMask.First(m => m.type == type)))
             collectedMask.Add(configureMask.FirstOrDefault(m => m.type == type));
+        SetMask(type);
         ShowMask();
     }
 
@@ -49,21 +50,32 @@ public class MaskManager : Singleton<MaskManager>
         }
     }
 
+    public void SetMask(MaskType type) 
+    {
+        if (collectedMask.Count <= 1)
+            return;
+        MaskModel last = collectedMask[collectedMask.Count-1];
+        collectedMask.Insert(0,last);
+        currentMask = collectedMask[0];
+        mask = currentMask.type;
+        collectedMask.RemoveAt(collectedMask.Count-1);
+        ShowMask();
+    }
+
     public void SwitchMask() 
     {
         if (collectedMask.Count <= 1)
             return;
-
         MaskModel firstMask = collectedMask[0];
         collectedMask.RemoveAt(0);
         collectedMask.Add(firstMask);
         currentMask = collectedMask[0];
+        mask = currentMask.type;
         ShowMask();
     }
 
     public MaskType GetMaskType()
     {
         return mask;
-        //return currentMask.type;
     }
 }

@@ -20,21 +20,22 @@ public class Personaje : MonoBehaviour
     private int coins;
     public TMP_Text textCoin;
 
+    [HideInInspector] public Vector2 initPos;
+
    
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        initPos = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         move = Input.GetAxis("Horizontal");
         rb2d.linearVelocity = new Vector2(move * speed, rb2d.linearVelocity.y);
 
         if (move != 0)
-
             transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
 
 
@@ -57,7 +58,8 @@ public class Personaje : MonoBehaviour
 
     private void FixedUpdate()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
+        if(groundCheck!= null)
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundLayer);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -72,8 +74,13 @@ public class Personaje : MonoBehaviour
         if (collision.transform.CompareTag("enemigo"))
         {
             Destroy(gameObject);
-            
+            EventBus.Instance.Invoke(EventGlobalType.Lost);
         }
     }
-    
+
+    private void OnDestroy()
+    {
+        EventBus.Instance.PositionPlayer(transform.position, initPos);
+    }
+
 }

@@ -10,4 +10,10 @@ public class balaEnemigo : MonoBehaviour
         transform.Translate(Time.deltaTime * velocidad * Vector2.left);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
+            Destroy(collision.gameObject);
+    }
+
 }
