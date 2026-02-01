@@ -20,6 +20,7 @@ public class disparoEnemigo : MonoBehaviour
             if (Time.time >= tiempoEntreDisparos + tiempoUltimoDisparo)
             {
                 tiempoUltimoDisparo = Time.time;
+                
                 Invoke(nameof(Disparar), tiempoEsperaDisparo);
 
             }

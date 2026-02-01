@@ -125,6 +125,13 @@ public class terrestre : MonoBehaviour
             estadoActual = EstadosMovimiento.Esperando;
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Destroy(collision.gameObject);
+        }
+    }
 
 
     private void GirarObjetivo(Vector3 objetivo)
