@@ -7,7 +7,7 @@ public class balaEnemigo : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(Time.deltaTime * velocidad * Vector2.left);
+        transform.Translate(Time.deltaTime * velocidad * Vector2.right);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
