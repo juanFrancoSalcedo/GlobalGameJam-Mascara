@@ -20,6 +20,8 @@ public class Volador : MonoBehaviour
         Siguiendo,
         Volviendo,
     }
+
+    bool playClip = false;
     private void Start()
     {
         puntoInicial = transform.position;
@@ -56,6 +58,7 @@ public class Volador : MonoBehaviour
         {
             transformJugador = jugadorCollider.transform;
             estadoActual = EstadosMovimiento.Siguiendo;
+            playClip = false;
         }
     }
     private void EstadoSiguiendo()
@@ -64,6 +67,11 @@ public class Volador : MonoBehaviour
         {
             estadoActual = EstadosMovimiento.Volviendo;
             return;
+        }
+        if (!playClip)
+        {
+            playClip = true;
+            ManagerAudio.Instance.PlayEnemy();
         }
 
         transform.position = Vector2.MoveTowards(transform.position, transformJugador.position, velocidadMovimiento * Time.deltaTime);
@@ -119,5 +127,10 @@ public class Volador : MonoBehaviour
     public void AlternarEstado()
     {
         GetComponent<EnemyBehaviour>().CheckBehaviour(MaskManager.Instance.GetMaskType());
+    }
+
+    private void OnDestroy()
+    {
+        ManagerAudio.Instance.PlayEnemyDeath();
     }
 }
