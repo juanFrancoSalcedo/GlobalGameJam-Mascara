@@ -14,12 +14,15 @@ public class PresentationHandler : MonoBehaviour
             yield return new WaitForSeconds(6f);
             slide.SetActive(false);
         }
+
+        yield return new WaitForSeconds(2f);
+        gameObject.SetActive(false);
         Shown = true;
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) 
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton(0)) 
         {
             gameObject.SetActive(false);
         }

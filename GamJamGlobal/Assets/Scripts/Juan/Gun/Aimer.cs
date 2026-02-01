@@ -4,20 +4,27 @@ using UnityEngine;
 
 public class Aimer : MonoBehaviour
 {
-    [SerializeField] Transform player;
+    [SerializeField] Transform shoulder;
     [SerializeField] Camera cam;
     [SerializeField] float rotationOffset = 0f;
     [SerializeField] SpriteRenderer spriteRenderer;
 
+    private void Awake()
+    {
+        transform.SetParent(null);
+    }
+
     void Update()
     {
-        spriteRenderer.sortingOrder = (player.localScale.x<0)?-1:3;
+        spriteRenderer.sortingOrder = (shoulder.localScale.x<0)?-1:3;
 
-        if (player != null)
-            transform.position = player.position;
+        if (shoulder != null)
+            transform.position = shoulder.position;
 
-        if (cam == null) cam = Camera.main;
-        if (cam == null) return;
+        if (cam == null) 
+            cam = Camera.main;
+        if (cam == null) 
+            return;
 
         Vector3 mouseWorld = cam.ScreenToWorldPoint(Input.mousePosition);
         mouseWorld.z = transform.position.z;
