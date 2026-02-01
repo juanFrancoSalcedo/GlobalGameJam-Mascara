@@ -19,6 +19,11 @@ public class Gun : MonoBehaviour
         }
     }
 
+    public void SetBullet(Bullet newBullet) 
+    {
+        bulletPrefab = newBullet;
+    }
+
     public void Shot()
     {
         Vector3 spawnPos = (muzzle != null) ? muzzle.transform.position : transform.position;
