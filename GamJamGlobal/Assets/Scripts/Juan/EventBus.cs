@@ -5,15 +5,19 @@ using UnityEngine;
 
 public class EventBus : Singleton<EventBus>
 {
-    private static Dictionary<EventGlobalType,Action> keyValuePairs = new Dictionary<EventGlobalType,Action>();
-    public static void Susbscribe(EventGlobalType type, Action action) 
+    private Dictionary<EventGlobalType,Action> keyValuePairs = new Dictionary<EventGlobalType,Action>();
+
+
+    public void Susbscribe(EventGlobalType type, Action action) 
     {
-        keyValuePairs.Add(type, action);
+        if(!keyValuePairs.ContainsKey(type))
+            keyValuePairs.Add(type, action);
+
     }
 
-    public static void Unsusbscribe(EventGlobalType type)
+    public void Unsusbscribe(EventGlobalType type)
     {
-        //keyValuePairs.Remove(type);
+        keyValuePairs.Remove(type);
     }
 
     public void Invoke(EventGlobalType type) 
