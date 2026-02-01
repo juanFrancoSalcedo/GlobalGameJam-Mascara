@@ -6,6 +6,7 @@ public class ImpactEffect : MonoBehaviour
     [SerializeField] private ParticleSystem effect;
     private void Start()
     {
+        ManagerAudio.Instance.PlayHit();
         Destroy(gameObject, timeLife);
         effect.Play();
     }
