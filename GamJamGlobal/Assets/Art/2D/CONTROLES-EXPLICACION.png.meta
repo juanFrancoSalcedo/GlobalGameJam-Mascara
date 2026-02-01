@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: 82b629ede7cabc044b2a30c0916784fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4722505830492176669
+    second: CONTROLES-EXPLICACION_0
+  - first:
+      213: -3620835191669597641
+    second: CONTROLES-EXPLICACION_1
+  - first:
+      213: -4640216179696539770
+    second: CONTROLES-EXPLICACION_2
+  - first:
+      213: -7724675266819449679
+    second: CONTROLES-EXPLICACION_3
+  - first:
+      213: 7647643684407218135
+    second: CONTROLES-EXPLICACION_4
+  - first:
+      213: -4208531001699540645
+    second: CONTROLES-EXPLICACION_5
+  - first:
+      213: -411696082064492935
+    second: CONTROLES-EXPLICACION_6
+  - first:
+      213: 8046652051611585638
+    second: CONTROLES-EXPLICACION_7
+  - first:
+      213: -7827236467359558839
+    second: CONTROLES-EXPLICACION_8
+  - first:
+      213: 7214887988166705389
+    second: CONTROLES-EXPLICACION_9
+  - first:
+      213: 6290291725379634682
+    second: CONTROLES-EXPLICACION_10
+  - first:
+      213: -776993055513241706
+    second: CONTROLES-EXPLICACION_11
+  - first:
+      213: -1414733606153423112
+    second: CONTROLES-EXPLICACION_12
+  - first:
+      213: 7993064105002796084
+    second: CONTROLES-EXPLICACION_13
+  - first:
+      213: 1032687399816808028
+    second: CONTROLES-EXPLICACION_14
+  - first:
+      213: -7540577848124899008
+    second: CONTROLES-EXPLICACION_15
+  - first:
+      213: 5434410648825972999
+    second: CONTROLES-EXPLICACION_16
+  - first:
+      213: 5055698104001655465
+    second: CONTROLES-EXPLICACION_17
+  - first:
+      213: -3385135744867436496
+    second: CONTROLES-EXPLICACION_18
+  - first:
+      213: -1031047033642659232
+    second: CONTROLES-EXPLICACION_19
+  - first:
+      213: 1815538346285007360
+    second: CONTROLES-EXPLICACION_20
+  - first:
+      213: -2203361315924635496
+    second: CONTROLES-EXPLICACION_21
+  - first:
+      213: -7182480192037138181
+    second: CONTROLES-EXPLICACION_22
+  - first:
+      213: -4101157873943778848
+    second: CONTROLES-EXPLICACION_23
+  - first:
+      213: -3941203025436045350
+    second: CONTROLES-EXPLICACION_24
+  - first:
+      213: 5178258095531163277
+    second: CONTROLES-EXPLICACION_25
+  - first:
+      213: -8159563044228258966
+    second: CONTROLES-EXPLICACION_26
+  - first:
+      213: 7102572723980625828
+    second: CONTROLES-EXPLICACION_27
+  - first:
+      213: -2327319542124451105
+    second: CONTROLES-EXPLICACION_28
+  - first:
+      213: 2231256240369774136
+    second: CONTROLES-EXPLICACION_29
+  - first:
+      213: -6853567647534974892
+    second: CONTROLES-EXPLICACION_30
+  - first:
+      213: 5552283271871597311
+    second: CONTROLES-EXPLICACION_31
+  - first:
+      213: 559493975503363959
+    second: CONTROLES-EXPLICACION_32
+  - first:
+      213: -3699413544767846330
+    second: CONTROLES-EXPLICACION_33
+  - first:
+      213: 5632228433785905971
+    second: CONTROLES-EXPLICACION_34
+  - first:
+      213: 8857245431186927939
+    second: CONTROLES-EXPLICACION_35
+  - first:
+      213: 90289331158009208
+    second: CONTROLES-EXPLICACION_36
+  - first:
+      213: 6442660631409610106
+    second: CONTROLES-EXPLICACION_37
+  - first:
+      213: -7281331223240806886
+    second: CONTROLES-EXPLICACION_38
+  - first:
+      213: -3808329352322809504
+    second: CONTROLES-EXPLICACION_39
+  - first:
+      213: 4734259381849856299
+    second: CONTROLES-EXPLICACION_40
+  - first:
+      213: 6803130372945398511
+    second: CONTROLES-EXPLICACION_41
+  - first:
+      213: -6331720802329726467
+    second: CONTROLES-EXPLICACION_42
+  - first:
+      213: -4969171803732267287
+    second: CONTROLES-EXPLICACION_43
+  - first:
+      213: 4995611611332019602
+    second: CONTROLES-EXPLICACION_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 74
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee7dc3d7f9467eb0800000000000000
+      internalID: -4722505830492176669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 98
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73adc42c39530cdc0800000000000000
+      internalID: -3620835191669597641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 98
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687ea2038f3aa9fb0800000000000000
+      internalID: -4640216179696539770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc1bfb95c07cc490800000000000000
+      internalID: -7724675266819449679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 98
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df0ad97963e12a60800000000000000
+      internalID: 7647643684407218135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 98
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51ea790a5b4895c0800000000000000
+      internalID: -4208531001699540645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9763029389c594af0800000000000000
+      internalID: -411696082064492935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c0a7f68637baf60800000000000000
+      internalID: 8046652051611585638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 98
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943dc0647e1106390800000000000000
+      internalID: -7827236467359558839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0c8ec266e602460800000000000000
+      internalID: 7214887988166705389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af505d03ffa9b4750800000000000000
+      internalID: 6290291725379634682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6971035cee09735f0800000000000000
+      internalID: -776993055513241706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 82
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6fa61e74bdd5ce0800000000000000
+      internalID: -1414733606153423112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 82
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4340e9554711dee60800000000000000
+      internalID: 7993064105002796084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 82
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c564a1ef7b7d45e00800000000000000
+      internalID: 1032687399816808028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0410659166c7a5790800000000000000
+      internalID: -7540577848124899008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 82
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7094fde31b7ea6b40800000000000000
+      internalID: 5434410648825972999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a272aca3a2792640800000000000000
+      internalID: 5055698104001655465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_18
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038f2baa9f49501d0800000000000000
+      internalID: -3385135744867436496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_19
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 82
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06252058f2cf0b1f0800000000000000
+      internalID: -1031047033642659232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 63
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0020b6eb186123910800000000000000
+      internalID: 1815538346285007360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 63
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890997c9e861c61e0800000000000000
+      internalID: -2203361315924635496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_22
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 63
+        width: 72
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0d85bd154b25c90800000000000000
+      internalID: -7182480192037138181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 47
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9e8cb74a2c517c0800000000000000
+      internalID: -4101157873943778848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf8031dab80e49c0800000000000000
+      internalID: -3941203025436045350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8efc636d4edcd740800000000000000
+      internalID: 5178258095531163277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 47
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63ae5a74a863ce80800000000000000
+      internalID: -8159563044228258966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a76e3ce248619260800000000000000
+      internalID: 7102572723980625828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 47
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdae8d40533b3bfd0800000000000000
+      internalID: -2327319542124451105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 49
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e2d1a9ab307fe10800000000000000
+      internalID: 2231256240369774136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 49
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458719c498c33e0a0800000000000000
+      internalID: -6853567647534974892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_31
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 39
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa0040f73cad0d40800000000000000
+      internalID: 5552283271871597311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_32
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 49
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f59df6ec8b3c700800000000000000
+      internalID: 559493975503363959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_33
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 49
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64808da3bfa09acc0800000000000000
+      internalID: -3699413544767846330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_34
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 49
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333e9a17be1b92e40800000000000000
+      internalID: 5632228433785905971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_35
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 49
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341395ebac14bea70800000000000000
+      internalID: 8857245431186927939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_36
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 49
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8754ea61ba5c04100800000000000000
+      internalID: 90289331158009208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 39
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d4097a5bde86950800000000000000
+      internalID: 6442660631409610106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_38
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 39
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e65c2a4d383fa90800000000000000
+      internalID: -7281331223240806886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 39
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0610b17a1a8162bc0800000000000000
+      internalID: -3808329352322809504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_40
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 39
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2998b913d773b140800000000000000
+      internalID: 4734259381849856299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_41
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 39
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feac4189703996e50800000000000000
+      internalID: 6803130372945398511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 39
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df17f282a753128a0800000000000000
+      internalID: -6331720802329726467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_43
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 16
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eea6a28294f90bb0800000000000000
+      internalID: -4969171803732267287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CONTROLES-EXPLICACION_44
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 17
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2950349ea4af35540800000000000000
+      internalID: 4995611611332019602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CONTROLES-EXPLICACION_0: -4722505830492176669
+      CONTROLES-EXPLICACION_1: -3620835191669597641
+      CONTROLES-EXPLICACION_10: 6290291725379634682
+      CONTROLES-EXPLICACION_11: -776993055513241706
+      CONTROLES-EXPLICACION_12: -1414733606153423112
+      CONTROLES-EXPLICACION_13: 7993064105002796084
+      CONTROLES-EXPLICACION_14: 1032687399816808028
+      CONTROLES-EXPLICACION_15: -7540577848124899008
+      CONTROLES-EXPLICACION_16: 5434410648825972999
+      CONTROLES-EXPLICACION_17: 5055698104001655465
+      CONTROLES-EXPLICACION_18: -3385135744867436496
+      CONTROLES-EXPLICACION_19: -1031047033642659232
+      CONTROLES-EXPLICACION_2: -4640216179696539770
+      CONTROLES-EXPLICACION_20: 1815538346285007360
+      CONTROLES-EXPLICACION_21: -2203361315924635496
+      CONTROLES-EXPLICACION_22: -7182480192037138181
+      CONTROLES-EXPLICACION_23: -4101157873943778848
+      CONTROLES-EXPLICACION_24: -3941203025436045350
+      CONTROLES-EXPLICACION_25: 5178258095531163277
+      CONTROLES-EXPLICACION_26: -8159563044228258966
+      CONTROLES-EXPLICACION_27: 7102572723980625828
+      CONTROLES-EXPLICACION_28: -2327319542124451105
+      CONTROLES-EXPLICACION_29: 2231256240369774136
+      CONTROLES-EXPLICACION_3: -7724675266819449679
+      CONTROLES-EXPLICACION_30: -6853567647534974892
+      CONTROLES-EXPLICACION_31: 5552283271871597311
+      CONTROLES-EXPLICACION_32: 559493975503363959
+      CONTROLES-EXPLICACION_33: -3699413544767846330
+      CONTROLES-EXPLICACION_34: 5632228433785905971
+      CONTROLES-EXPLICACION_35: 8857245431186927939
+      CONTROLES-EXPLICACION_36: 90289331158009208
+      CONTROLES-EXPLICACION_37: 6442660631409610106
+      CONTROLES-EXPLICACION_38: -7281331223240806886
+      CONTROLES-EXPLICACION_39: -3808329352322809504
+      CONTROLES-EXPLICACION_4: 7647643684407218135
+      CONTROLES-EXPLICACION_40: 4734259381849856299
+      CONTROLES-EXPLICACION_41: 6803130372945398511
+      CONTROLES-EXPLICACION_42: -6331720802329726467
+      CONTROLES-EXPLICACION_43: -4969171803732267287
+      CONTROLES-EXPLICACION_44: 4995611611332019602
+      CONTROLES-EXPLICACION_5: -4208531001699540645
+      CONTROLES-EXPLICACION_6: -411696082064492935
+      CONTROLES-EXPLICACION_7: 8046652051611585638
+      CONTROLES-EXPLICACION_8: -7827236467359558839
+      CONTROLES-EXPLICACION_9: 7214887988166705389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
