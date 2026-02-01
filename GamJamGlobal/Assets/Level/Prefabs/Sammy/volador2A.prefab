@@ -113,10 +113,12 @@ MonoBehaviour:
     m_Bits: 8
   transformJugador: {fileID: 0}
   velocidadMovimiento: 0.5
+  velocidadRabia: 0.6
   distanciaMaxima: 0.65
   puntoInicial: {x: 0.49, y: 0.72, z: 0}
   mirandoDerecha: 0
   estadoActual: 0
+  maskRequierement: 1
 --- !u!58 &8782249166694351186
 CircleCollider2D:
   m_ObjectHideFlags: 0

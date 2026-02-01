@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class MaskManager : Singleton<MaskManager>
 {
+    [SerializeField] MaskType mask;
     public List<MaskModel> configureMask = new List<MaskModel>();
     MaskModel currentMask = null;
     [SerializeField] private Image imageIcon;
@@ -58,5 +59,11 @@ public class MaskManager : Singleton<MaskManager>
         collectedMask.Add(firstMask);
         currentMask = collectedMask[0];
         ShowMask();
+    }
+
+    public MaskType GetMaskType()
+    {
+        return mask;
+        //return currentMask.type;
     }
 }

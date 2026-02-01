@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class volador : MonoBehaviour
@@ -5,12 +7,15 @@ public class volador : MonoBehaviour
     public float radiobusqueda;
     public LayerMask capaJugador;
     public Transform transformJugador;
-    public float velocidadMovimiento;
+    public float velocidadMovimiento, velocidadRabia;
     public float distanciaMaxima;
     public Vector3 puntoInicial;
     public bool mirandoDerecha;
     public EstadosMovimiento estadoActual;
+    public MaskType maskRequierement;
 
+    StateSettings currentSetting, lastSetting;
+    [SerializeField] List<StateSettings> settings;
     public enum EstadosMovimiento
     {
         Esperando,
@@ -18,7 +23,6 @@ public class volador : MonoBehaviour
         Siguiendo,
 
         Volviendo,
-
     }
     private void Start()
     {
@@ -45,6 +49,7 @@ public class volador : MonoBehaviour
         if (jugadorCollider)
         {
             transformJugador = jugadorCollider.transform;
+            AlternarEstado();
         }
     }
     private void EstadoEsperando()
@@ -63,7 +68,6 @@ public class volador : MonoBehaviour
         {
             estadoActual = EstadosMovimiento.Volviendo;
             return;
-
         }
 
         transform.position = Vector2.MoveTowards(transform.position, transformJugador.position, velocidadMovimiento * Time.deltaTime);
@@ -84,12 +88,12 @@ public class volador : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, puntoInicial, velocidadMovimiento * Time.deltaTime);
 
         GirarObjetivo(puntoInicial);
-            
+
         if (Vector2.Distance(transform.position, puntoInicial) < 0.1f)
         {
             estadoActual = EstadosMovimiento.Esperando;
         }
-    }       
+    }
     private void GirarObjetivo(Vector3 objetivo)
     {
         if (objetivo.x > transform.position.x && !mirandoDerecha)
@@ -116,9 +120,19 @@ public class volador : MonoBehaviour
         Gizmos.DrawWireSphere(puntoInicial, distanciaMaxima);
     }
 
-
-
-
-
+    public void AlternarEstado()
+    {
+      
+    }
 }
-    
+
+[Serializable]
+public class StateSettings
+{
+    [SerializeField] MaskType _mask;
+    [SerializeField] GameObject _visual;
+    [SerializeField] float _speed;
+    public MaskType Mask { get => _mask; set => _mask = value; }
+    public GameObject Visual { get => _visual; set => _visual = value; }
+    public float Speed { get => _speed; set => _speed = value; }
+}
