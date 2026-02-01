@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b26da46c950dac24e9605c314343ac26
+guid: a58ffee1ac8367749b962c53ebe6abca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4013196702371287035
-    second: BOTON-REINICIAR2_0
+      213: -6260159637789054956
+    second: BOTON-SALIR2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,12 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BOTON-REINICIAR2_0
+      name: BOTON-SALIR2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 59
+        width: 44
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 500f36dacd24e48c0800000000000000
-      internalID: -4013196702371287035
+      spriteID: 41868582af17f19a0800000000000000
+      internalID: -6260159637789054956
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BOTON-REINICIAR2_0: -4013196702371287035
+      BOTON-SALIR2_0: -6260159637789054956
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
