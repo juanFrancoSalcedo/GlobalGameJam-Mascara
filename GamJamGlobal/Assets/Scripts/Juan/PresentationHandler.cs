@@ -11,7 +11,7 @@ public class PresentationHandler : MonoBehaviour
         foreach (var slide in slides)
         {
             slide.SetActive(true);
-            yield return new WaitForSeconds(6f);
+            yield return new WaitForSeconds(5f);
             slide.SetActive(false);
         }
 

@@ -22,21 +22,26 @@ public class Personaje : MonoBehaviour
 
     [HideInInspector] public Vector2 initPos;
 
-   
+   SpriteRenderer spriteRenderer;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         initPos = transform.position;
     }
+
+    public bool directionRight;
 
     void Update()
     {
         move = Input.GetAxis("Horizontal");
         rb2d.linearVelocity = new Vector2(move * speed, rb2d.linearVelocity.y);
+        directionRight = move <= 0;
 
         if (move != 0)
-            transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
+            spriteRenderer.flipX = directionRight;
+        //transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
 
 
         if (Input.GetButtonDown("Jump") && nJumpsValue >=0)
