@@ -38,6 +38,7 @@ public class PlatformHandler : MonoBehaviour
     {
         if (damageCoroutine != null)
             StopCoroutine(damageCoroutine);
+        damageCoroutine = null;
         animators.ForEach(a => a.SetBool("Damage", false));
         animators.ForEach(a => a.SetBool("Fall", false));
     }
@@ -66,7 +67,8 @@ public class PlatformHandler : MonoBehaviour
         while (!lifePlatform.IsDead)
         { 
             lifePlatform.MakeDamageBase();
-            particles.Play();
+            if(particles!=null)
+                particles.Play();
             animators.ForEach(a => a.SetBool("Damage",true));
             yield return new WaitForSeconds(1f);
         }
@@ -75,7 +77,6 @@ public class PlatformHandler : MonoBehaviour
 
     #region Fall Animation
     private void WaitDisableCollision() => Invoke(nameof(WaitDead), 0.7f);
-
     private void WaitDead() 
     {
         animators.ForEach(a => a.SetBool("Fall", true));

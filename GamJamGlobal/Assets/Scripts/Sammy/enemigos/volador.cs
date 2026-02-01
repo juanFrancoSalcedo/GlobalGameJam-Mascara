@@ -1,27 +1,23 @@
 using System.Collections.Generic;
-using System;
 using UnityEngine;
 
-public class volador : MonoBehaviour
+public class Volador : MonoBehaviour
 {
     public float radiobusqueda;
     public LayerMask capaJugador;
     public Transform transformJugador;
-    public float velocidadMovimiento, velocidadRabia;
+    public float velocidadMovimiento;
     public float distanciaMaxima;
     public Vector3 puntoInicial;
     public bool mirandoDerecha;
     public EstadosMovimiento estadoActual;
-    public MaskType maskRequierement;
 
-    StateSettings currentSetting, lastSetting;
-    [SerializeField] List<StateSettings> settings;
+    BehaviourData currentSetting, lastSetting;
+    [SerializeField] List<BehaviourData> settings;
     public enum EstadosMovimiento
     {
         Esperando,
-
         Siguiendo,
-
         Volviendo,
     }
     private void Start()
@@ -122,17 +118,6 @@ public class volador : MonoBehaviour
 
     public void AlternarEstado()
     {
-      
+        GetComponent<EnemyBehaviour>().CheckBehaviour(MaskManager.Instance.GetMaskType());
     }
-}
-
-[Serializable]
-public class StateSettings
-{
-    [SerializeField] MaskType _mask;
-    [SerializeField] GameObject _visual;
-    [SerializeField] float _speed;
-    public MaskType Mask { get => _mask; set => _mask = value; }
-    public GameObject Visual { get => _visual; set => _visual = value; }
-    public float Speed { get => _speed; set => _speed = value; }
 }

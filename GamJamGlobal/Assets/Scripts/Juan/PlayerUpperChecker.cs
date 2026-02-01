@@ -12,6 +12,9 @@ public class PlayerUpperChecker : MonoBehaviour
 
     public bool IsPlayerAbove()
     {
+        if (player == null) 
+            return false;
+
         return transform.position.y + positionOffset.y < player.transform.position.y;
     }
 }

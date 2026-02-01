@@ -11,15 +11,9 @@ public class MaskItem : MonoBehaviour
         triggerDetector = GetComponent<TriggerDetector2D>();
     }
 
-    private void OnEnable()
-    {
-        triggerDetector.OnTriggerEntered += CollectMask;
-    }
+    private void OnEnable() => triggerDetector.OnTriggerEntered += CollectMask;
 
-    private void OnDisable()
-    {
-        triggerDetector.OnTriggerEntered -= CollectMask;
-    }
+    private void OnDisable() => triggerDetector.OnTriggerEntered -= CollectMask;
 
     private void CollectMask(Transform _transform)
     {

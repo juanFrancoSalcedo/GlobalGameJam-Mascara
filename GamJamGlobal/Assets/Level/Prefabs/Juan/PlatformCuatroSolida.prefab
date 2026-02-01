@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3182981402516605487}
   - component: {fileID: 1901280342324566076}
-  - component: {fileID: 5179924434003164368}
   m_Layer: 0
   m_Name: plataformas-Deco
   m_TagString: Untagged
@@ -92,28 +91,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &5179924434003164368
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3059036159747922412}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4da7b1eff2e40ee4f835410f15bcaee2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5174432473476303144
 GameObject:
   m_ObjectHideFlags: 0
@@ -5106,9 +5083,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlatformHandler
   data:
     hp: 600000
-  particles: {fileID: 1808122968885977089}
-  animators:
-  - {fileID: 5179924434003164368}
+  particles: {fileID: 0}
+  animators: []
 --- !u!114 &1430303886327172625
 MonoBehaviour:
   m_ObjectHideFlags: 0

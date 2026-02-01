@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 7503624839505597199}
   - component: {fileID: 4942960568648618032}
   - component: {fileID: 8782249166694351186}
+  - component: {fileID: -3546322669765898892}
+  - component: {fileID: -3825868602939409096}
   m_Layer: 0
-  m_Name: volador1A
+  m_Name: EnemyBehaviourBlue
   m_TagString: enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,9 +33,9 @@ Transform:
   m_LocalScale: {x: 0.7549807, y: 0.7549807, z: 0.7549807}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7720349902231814653}
-  - {fileID: 2555292135023995087}
   - {fileID: 918429148112442067}
+  - {fileID: 2555292135023995087}
+  - {fileID: 7720349902231814653}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4942960568648618032
@@ -54,23 +56,16 @@ MonoBehaviour:
     m_Bits: 8
   transformJugador: {fileID: 0}
   velocidadMovimiento: 0.5
-  velocidadRabia: 1
   distanciaMaxima: 0.65
   puntoInicial: {x: 0.49, y: 0.72, z: 0}
   mirandoDerecha: 0
   estadoActual: 0
-  maskRequierement: 1
-  rage: {fileID: 5107603377687816822}
-  normal: {fileID: 7427042278873619780}
   settings:
-  - _mask: 1
-    _visual: {fileID: 7427042278873619780}
+  - _visual: {fileID: 7427042278873619780}
     _speed: 0.1
-  - _mask: 2
-    _visual: {fileID: 5107603377687816822}
+  - _visual: {fileID: 5107603377687816822}
     _speed: 1
-  - _mask: 0
-    _visual: {fileID: 7577597661042561130}
+  - _visual: {fileID: 7577597661042561130}
     _speed: 0.5
 --- !u!58 &8782249166694351186
 CircleCollider2D:
@@ -108,6 +103,42 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: -0.0017422831}
   m_Radius: 0.06099317
+--- !u!114 &-3546322669765898892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987934924824236470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11cf97f228f26384987dbe5b8a8f2856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HPHandler
+  data:
+    hp: 2
+--- !u!114 &-3825868602939409096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987934924824236470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e531b3e301a4d81448f8c3375e4e16ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyBehaviour
+  dataPassive:
+    _visual: {fileID: 7427042278873619780}
+    _speed: 0.1
+  dataNormal:
+    _visual: {fileID: 7577597661042561130}
+    _speed: 0.5
+  dataAgressive:
+    _visual: {fileID: 5107603377687816822}
+    _speed: 1
+  mineMask: 1
 --- !u!1 &5107603377687816822
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,8 +150,9 @@ GameObject:
   - component: {fileID: 2555292135023995087}
   - component: {fileID: 1361421416809216997}
   - component: {fileID: 6955088538548459572}
+  - component: {fileID: 5007341202589493475}
   m_Layer: 0
-  m_Name: Green
+  m_Name: Green-Rage
   m_TagString: enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -222,6 +254,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5007341202589493475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5107603377687816822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d403168901f0546a4f8349d47fd1a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::B_Extensions.HierarchyStates.StateSetter
+  stateEnable: 0
+  timeDelay: 0
+  reference:
+    UniqueId: HFCJ492PIA9B
+    handler: {fileID: 5007341202589493475}
+    sceneName: Juan White Box
 --- !u!1 &7427042278873619780
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,8 +283,9 @@ GameObject:
   - component: {fileID: 7720349902231814653}
   - component: {fileID: 1073835384438128882}
   - component: {fileID: 3304730546462822847}
+  - component: {fileID: 569166703561488756}
   m_Layer: 0
-  m_Name: Blue
+  m_Name: Blue-Passive
   m_TagString: enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -336,6 +387,24 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &569166703561488756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7427042278873619780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d403168901f0546a4f8349d47fd1a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::B_Extensions.HierarchyStates.StateSetter
+  stateEnable: 0
+  timeDelay: 0
+  reference:
+    UniqueId: RE01AFUPBXA7
+    handler: {fileID: 569166703561488756}
+    sceneName: Juan White Box
 --- !u!1 &7577597661042561130
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,13 +416,14 @@ GameObject:
   - component: {fileID: 918429148112442067}
   - component: {fileID: 4408020498696012281}
   - component: {fileID: 5714402671738053160}
+  - component: {fileID: 623693730567318243}
   m_Layer: 0
-  m_Name: None
+  m_Name: None-normal
   m_TagString: enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &918429148112442067
 Transform:
   m_ObjectHideFlags: 0
@@ -364,8 +434,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7549807, y: 0.7549807, z: 0.7549807}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7503624839505597199}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -450,3 +520,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &623693730567318243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7577597661042561130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d403168901f0546a4f8349d47fd1a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::B_Extensions.HierarchyStates.StateSetter
+  stateEnable: 0
+  timeDelay: 0
+  reference:
+    UniqueId: CSP1WKA61G78
+    handler: {fileID: 623693730567318243}
+    sceneName: Juan White Box

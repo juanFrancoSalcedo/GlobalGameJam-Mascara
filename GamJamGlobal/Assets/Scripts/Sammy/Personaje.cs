@@ -27,14 +27,12 @@ public class Personaje : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         move = Input.GetAxis("Horizontal");
         rb2d.linearVelocity = new Vector2(move * speed, rb2d.linearVelocity.y);
 
         if (move != 0)
-
             transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
 
 
