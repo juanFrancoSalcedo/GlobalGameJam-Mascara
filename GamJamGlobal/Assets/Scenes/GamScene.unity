@@ -2210,13 +2210,14 @@ GameObject:
   - component: {fileID: 548852605}
   - component: {fileID: 548852604}
   - component: {fileID: 548852603}
+  - component: {fileID: 548852606}
   m_Layer: 5
   m_Name: pausePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &548852603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2277,6 +2278,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &548852606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548852602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d403168901f0546a4f8349d47fd1a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::B_Extensions.HierarchyStates.StateSetter
+  stateEnable: 0
+  timeDelay: 0
+  reference:
+    UniqueId: NTUKO1A6UQ6Q
+    handler: {fileID: 548852606}
+    sceneName: GamScene
 --- !u!4 &549410678 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7503624839505597199, guid: 7d3b763c37946d340bd0aae3307597ca, type: 3}

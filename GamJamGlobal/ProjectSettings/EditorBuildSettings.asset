@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: f0dd879976b1e2a45b991bc7c6edd66a
   - enabled: 1
+    path: Assets/Scenes/GamScene 2.unity
+    guid: ea684dda8a6072c44a7c50aa00611a03
+  - enabled: 1
+    path: Assets/Scenes/GamScene 1.unity
+    guid: 9663711263fb6c04399dff6dc51e0f27
+  - enabled: 1
     path: Assets/Scenes/GamScene.unity
     guid: 13000533a268d77469603469e1e203dc
   - enabled: 1
@@ -17,12 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Juan White Box.unity
     guid: c4b5e0a1c5c1fa043806756fa9c92295
-  - enabled: 1
-    path: Assets/Scenes/GamScene 1.unity
-    guid: 072df85efbc09f5439c31f4255025f6a
-  - enabled: 1
-    path: Assets/Scenes/GamScene 2.unity
-    guid: 018a80740d66b0a4c84843ce35281106
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
