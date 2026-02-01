@@ -3,10 +3,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class menu : MonoBehaviour
 {
-   public void Jugar()
 
+    string currentScene = "GamScene";
+
+    public void SetScene(string newSTR) => currentScene = newSTR;
+
+    public void Jugar()
     {
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(currentScene);
     }
 
     public void Salir()
