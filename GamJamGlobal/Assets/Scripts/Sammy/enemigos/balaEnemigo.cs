@@ -15,5 +15,4 @@ public class balaEnemigo : MonoBehaviour
         if(collision.CompareTag("Player"))
             Destroy(collision.gameObject);
     }
-
 }

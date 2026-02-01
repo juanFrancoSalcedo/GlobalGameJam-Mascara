@@ -68,7 +68,8 @@ public class Personaje : MonoBehaviour
         {
             Destroy(collision.gameObject);
             coins++;
-            textCoin.text = coins.ToString();
+            if(textCoin != null)
+                textCoin.text = coins.ToString();
         }
 
         if (collision.transform.CompareTag("enemigo"))
