@@ -142,6 +142,9 @@ MonoBehaviour:
   cam: {fileID: 0}
   rotationOffset: 0
   spriteRenderer: {fileID: 9091469240854073760}
+  offsetLeft: {x: 0.1, y: 0, z: 0}
+  offsetRigth: {x: -0.1, y: 0, z: 0}
+  personaje: {fileID: 136076635786774353}
 --- !u!114 &4490942705852754026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,6 +310,7 @@ MonoBehaviour:
     m_Bits: 65
   textCoin: {fileID: 0}
   initPos: {x: 0, y: 0}
+  directionRight: 0
 --- !u!95 &121581010154871511
 Animator:
   serializedVersion: 7
@@ -5332,7 +5336,7 @@ Transform:
   m_GameObject: {fileID: 7202624501829393443}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.0078, y: -0.0124, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5392,7 +5396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4936628752064522435, guid: b06cda7370eb2a74daeedbc91207f5a1, type: 3}
       propertyPath: reference.UniqueId
-      value: 33XTGSMWFAGB
+      value: 7N0XK4TCID6W
       objectReference: {fileID: 0}
     - target: {fileID: 7146585469665165674, guid: b06cda7370eb2a74daeedbc91207f5a1, type: 3}
       propertyPath: m_AnchorMax.y
@@ -5412,7 +5416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7604745037104263504, guid: b06cda7370eb2a74daeedbc91207f5a1, type: 3}
       propertyPath: reference.UniqueId
-      value: V0RCQASSQGC0
+      value: 1VE66VKTXBL9
       objectReference: {fileID: 0}
     - target: {fileID: 7805639132249231506, guid: b06cda7370eb2a74daeedbc91207f5a1, type: 3}
       propertyPath: m_AnchorMax.y
@@ -5432,7 +5436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8506247679949275250, guid: b06cda7370eb2a74daeedbc91207f5a1, type: 3}
       propertyPath: reference.UniqueId
-      value: 0TB5VL116AD5
+      value: ZYOA80XZPR27
       objectReference: {fileID: 0}
     - target: {fileID: 8847164269716433283, guid: b06cda7370eb2a74daeedbc91207f5a1, type: 3}
       propertyPath: m_AnchorMax.y
