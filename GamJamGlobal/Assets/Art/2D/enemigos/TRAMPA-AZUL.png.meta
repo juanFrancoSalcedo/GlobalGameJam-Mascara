@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: ede7f418363e5ce49a8d3cf8a356b29e
+guid: e56c90f6aaf591c40aec4a6eb842b44a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 259981145209965286
-    second: PATRULLA-CAMINA-VERDE-NORMAL_0
+      213: -7289626381327337255
+    second: TRAMPA-AZUL_0
   - first:
-      213: -536386334531828413
-    second: PATRULLA-CAMINA-VERDE-NORMAL_1
+      213: -752588308776559528
+    second: TRAMPA-AZUL_1
+  - first:
+      213: 8064591549860023324
+    second: TRAMPA-AZUL_2
+  - first:
+      213: 3654904619610209087
+    second: TRAMPA-AZUL_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -116,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PATRULLA-CAMINA-VERDE-NORMAL_0
+      name: TRAMPA-AZUL_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 4
         y: 0
-        width: 12
-        height: 15
+        width: 9
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ea0a806973ab9300800000000000000
-      internalID: 259981145209965286
+      spriteID: 9d8faa3ad6b06da90800000000000000
+      internalID: -7289626381327337255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PATRULLA-CAMINA-VERDE-NORMAL_1
+      name: TRAMPA-AZUL_1
       rect:
         serializedVersion: 2
         x: 20
         y: 0
-        width: 11
-        height: 15
+        width: 9
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +159,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3454bdb787f5e88f0800000000000000
-      internalID: -536386334531828413
+      spriteID: 85cd249abe44e85f0800000000000000
+      internalID: -752588308776559528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAMPA-AZUL_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c060c594f2bef60800000000000000
+      internalID: 8064591549860023324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TRAMPA-AZUL_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bfcc31364d8b230800000000000000
+      internalID: 3654904619610209087
       vertices: []
       indices: 
       edges: []
@@ -173,8 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PATRULLA-CAMINA-VERDE-NORMAL_0: 259981145209965286
-      PATRULLA-CAMINA-VERDE-NORMAL_1: -536386334531828413
+      TRAMPA-AZUL_0: -7289626381327337255
+      TRAMPA-AZUL_1: -752588308776559528
+      TRAMPA-AZUL_2: 8064591549860023324
+      TRAMPA-AZUL_3: 3654904619610209087
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

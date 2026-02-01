@@ -129,11 +129,11 @@ public class terrestre : MonoBehaviour
 
     private void GirarObjetivo(Vector3 objetivo)
     {
-        if (objetivo.x > transform.position.x && !mirandoDerecha)
+        if (objetivo.x < transform.position.x && !mirandoDerecha)
         {
             Girar();
         }
-        else if (objetivo.x < transform.position.x && mirandoDerecha)
+        else if (objetivo.x > transform.position.x && mirandoDerecha)
         {
             Girar();
         }
