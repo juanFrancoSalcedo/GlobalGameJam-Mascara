@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 4942960568648618032}
   - component: {fileID: 8782249166694351186}
   - component: {fileID: 3157431861083464692}
+  - component: {fileID: -3484875828431340634}
   m_Layer: 0
-  m_Name: volador
-  m_TagString: Untagged
+  m_Name: volador2V
+  m_TagString: enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4947102552151799836, guid: 1cd3f7e0007cda54f86c3be37a20a672, type: 3}
+  m_Sprite: {fileID: -7826873139620843741, guid: 8f4b143c3fa84ad4d853ebfdd990acce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -146,7 +147,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -162,7 +163,7 @@ Animator:
   m_GameObject: {fileID: 987934924824236470}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0fc956f4d6368ea48948eb3d0e57f378, type: 2}
+  m_Controller: {fileID: 9100000, guid: 55bc01cfdbc42ef4f860907f7a0c4842, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -174,3 +175,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-3484875828431340634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987934924824236470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11cf97f228f26384987dbe5b8a8f2856, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HPHandler
+  data:
+    hp: 1

@@ -15,13 +15,18 @@ public class PlatformManager : MonoBehaviour
     private IEnumerator Start() 
     {
         startedPosition = transform.position.y;
-        for (int i = 0; i < count; i++)
+        for (int i = 0; i < 3; i++) 
+        {
+            CreateRandom(listSettings[i]);
+        }
+
+        for (int i = 3; i < count; i++)
         {
             //easier to player
             if(i<10)
-                CreateRandom(listSettings[Random.Range(0, 2)]);
+                CreateRandom(listSettings[Random.Range(0, 3)]);
             else if(i>40)
-                CreateRandom(listSettings[Random.Range(2, listSettings.Count)]);
+                CreateRandom(listSettings[Random.Range(3, listSettings.Count)]);
             else
                 CreateRandom(listSettings[Random.Range(0, listSettings.Count)]);
 

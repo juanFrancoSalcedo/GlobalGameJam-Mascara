@@ -25,7 +25,6 @@ public class volador : MonoBehaviour
         puntoInicial = transform.position;
     }
 
-    // Update is called once per frame
     private void Update()
     {
         switch (estadoActual)
@@ -44,7 +43,6 @@ public class volador : MonoBehaviour
         Collider2D jugadorCollider = Physics2D.OverlapCircle(transform.position, radiobusqueda, capaJugador);
 
         if (jugadorCollider)
-
         {
             transformJugador = jugadorCollider.transform;
         }
@@ -54,7 +52,6 @@ public class volador : MonoBehaviour
         Collider2D jugadorCollider = Physics2D.OverlapCircle(transform.position, radiobusqueda, capaJugador);
 
         if (jugadorCollider)
-
         {
             transformJugador = jugadorCollider.transform;
             estadoActual = EstadosMovimiento.Siguiendo;

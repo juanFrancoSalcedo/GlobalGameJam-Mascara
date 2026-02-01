@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 
+
 public class Personaje : MonoBehaviour
 {
     public float speed = 5;
@@ -18,6 +19,8 @@ public class Personaje : MonoBehaviour
     private Animator animator;
     private int coins;
     public TMP_Text textCoin;
+
+   
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -33,6 +36,7 @@ public class Personaje : MonoBehaviour
         if (move != 0)
 
             transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
+
 
         if (Input.GetButtonDown("Jump") && nJumpsValue >=0)
         {
@@ -64,5 +68,12 @@ public class Personaje : MonoBehaviour
             coins++;
             textCoin.text = coins.ToString();
         }
+
+        if (collision.transform.CompareTag("enemigo"))
+        {
+            Destroy(gameObject);
+            
+        }
     }
+    
 }
