@@ -151,14 +151,14 @@ RectTransform:
   m_GameObject: {fileID: 29174524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1550728, y: 1.1550728, z: 1.1550728}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1644518554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -189, y: 657}
+  m_AnchoredPosition: {x: -114.3, y: 574.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &29174526
@@ -896,11 +896,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 798ec3c5c0b9f7446a91d2fb53ee4b74, type: 3}
---- !u!224 &161553505 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 601912762725960038, guid: 798ec3c5c0b9f7446a91d2fb53ee4b74, type: 3}
-  m_PrefabInstance: {fileID: 161553504}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &161553506 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8019567265843451041, guid: 798ec3c5c0b9f7446a91d2fb53ee4b74, type: 3}
@@ -4061,14 +4056,6 @@ PrefabInstance:
       propertyPath: textCoin
       value: 
       objectReference: {fileID: 29174526}
-    - target: {fileID: 136076635786774353, guid: 69a9f885544a883408d2cf4bd03627a7, type: 3}
-      propertyPath: jumpForce
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 136076635786774353, guid: 69a9f885544a883408d2cf4bd03627a7, type: 3}
-      propertyPath: groundLayer.m_Bits
-      value: 65
-      objectReference: {fileID: 0}
     - target: {fileID: 716463738043676997, guid: 69a9f885544a883408d2cf4bd03627a7, type: 3}
       propertyPath: mask
       value: 0
@@ -4313,7 +4300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   panelLost: {fileID: 161553506}
-  playerImage: {fileID: 161553505}
+  playerImage: {fileID: 0}
   finishY: 0
 --- !u!1001 &1248456293
 PrefabInstance:
@@ -7572,7 +7559,7 @@ GameObject:
   - component: {fileID: 1644518552}
   - component: {fileID: 1644518551}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: CanvasCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7807,14 +7794,14 @@ RectTransform:
   m_GameObject: {fileID: 1706639095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1550728, y: 1.1550728, z: 1.1550728}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1644518554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
+  m_AnchoredPosition: {x: 110.5, y: -121.9}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706639097

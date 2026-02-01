@@ -269,7 +269,7 @@ MonoBehaviour:
   stateEnable: 0
   timeDelay: 0
   reference:
-    UniqueId: ONH6XTROCIGT
+    UniqueId: HUF9OOM5M0TS
     handler: {fileID: 5007341202589493475}
     sceneName: Juan White Box
 --- !u!1 &7427042278873619780
@@ -402,7 +402,7 @@ MonoBehaviour:
   stateEnable: 0
   timeDelay: 0
   reference:
-    UniqueId: EM5CFNB3VW1P
+    UniqueId: PND88ZPFSA51
     handler: {fileID: 569166703561488756}
     sceneName: Juan White Box
 --- !u!1 &7577597661042561130
@@ -535,6 +535,6 @@ MonoBehaviour:
   stateEnable: 0
   timeDelay: 0
   reference:
-    UniqueId: WG5QFX7ZAE8W
+    UniqueId: 0NIVY45R9LTC
     handler: {fileID: 623693730567318243}
     sceneName: Juan White Box

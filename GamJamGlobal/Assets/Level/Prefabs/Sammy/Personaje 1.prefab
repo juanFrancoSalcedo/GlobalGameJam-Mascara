@@ -344,7 +344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Personaje
   speed: 1.2
-  jumpForce: 4
+  jumpForce: 3
   groundCheck: {fileID: 7439509842214091931}
   groundRadius: 0.1
   groundLayer:
