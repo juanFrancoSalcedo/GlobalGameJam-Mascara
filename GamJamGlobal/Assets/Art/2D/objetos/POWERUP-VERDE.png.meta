@@ -1,40 +1,37 @@
 fileFormatVersion: 2
-guid: 56138bc79bf980444bd5c32516f2dd7c
+guid: 0229739ec609d5d49a5aa045c2ae9655
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6066223886706532277
-    second: ESMERALDA_0
+      213: -2606693494943151906
+    second: POWERUP-VERDE_0
   - first:
-      213: 95711907919851135
-    second: ESMERALDA_1
+      213: -5475636504466720544
+    second: POWERUP-VERDE_1
   - first:
-      213: -2599668147244459096
-    second: ESMERALDA_2
+      213: -3372222701866802864
+    second: POWERUP-VERDE_2
   - first:
-      213: 6619433973171089797
-    second: ESMERALDA_3
+      213: -5202535351709920716
+    second: POWERUP-VERDE_3
   - first:
-      213: -7384038307675397224
-    second: ESMERALDA_4
+      213: 6219969162350757784
+    second: POWERUP-VERDE_4
   - first:
-      213: 4986269945180768796
-    second: ESMERALDA_5
+      213: -4712896185136189296
+    second: POWERUP-VERDE_5
   - first:
-      213: 1043701355216400427
-    second: ESMERALDA_6
+      213: -9170405894826803206
+    second: POWERUP-VERDE_6
   - first:
-      213: -2966740665093827507
-    second: ESMERALDA_7
+      213: 4823856625919340281
+    second: POWERUP-VERDE_7
   - first:
-      213: 561237417103174400
-    second: ESMERALDA_8
+      213: -388058509584072107
+    second: POWERUP-VERDE_8
   - first:
-      213: -1279309414165942399
-    second: ESMERALDA_9
-  - first:
-      213: 7427381959177666320
-    second: ESMERALDA_10
+      213: -2529135641282471086
+    second: POWERUP-VERDE_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,13 +140,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ESMERALDA_0
+      name: POWERUP-VERDE_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 2
         y: 0
-        width: 7
-        height: 8
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b402ed8e38170dba0800000000000000
-      internalID: -6066223886706532277
+      spriteID: ed88793c31a23dbd0800000000000000
+      internalID: -2606693494943151906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ESMERALDA_1
+      name: POWERUP-VERDE_1
       rect:
         serializedVersion: 2
-        x: 21
+        x: 18
         y: 0
-        width: 7
-        height: 8
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7e66502979045100800000000000000
-      internalID: 95711907919851135
+      spriteID: 0e879104c91a204b0800000000000000
+      internalID: -5475636504466720544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ESMERALDA_2
+      name: POWERUP-VERDE_2
       rect:
         serializedVersion: 2
-        x: 37
+        x: 34
         y: 0
-        width: 7
-        height: 8
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ab989df79f1cebd0800000000000000
-      internalID: -2599668147244459096
+      spriteID: 051a8b7c1557331d0800000000000000
+      internalID: -3372222701866802864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ESMERALDA_3
+      name: POWERUP-VERDE_3
       rect:
         serializedVersion: 2
-        x: 53
+        x: 50
         y: 0
-        width: 7
-        height: 8
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 581f3099024fcdb50800000000000000
-      internalID: 6619433973171089797
+      spriteID: 4321bed69a1ecc7b0800000000000000
+      internalID: -5202535351709920716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ESMERALDA_4
+      name: POWERUP-VERDE_4
       rect:
         serializedVersion: 2
-        x: 69
+        x: 66
         y: 0
-        width: 7
-        height: 8
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 893a12f0840a68990800000000000000
-      internalID: -7384038307675397224
+      spriteID: 8970dc39ff4c15650800000000000000
+      internalID: 6219969162350757784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ESMERALDA_5
+      name: POWERUP-VERDE_5
       rect:
         serializedVersion: 2
-        x: 85
+        x: 82
         y: 0
-        width: 7
-        height: 8
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1ac4b4c81ac23540800000000000000
-      internalID: 4986269945180768796
+      spriteID: 090f9adb3ed689eb0800000000000000
+      internalID: -4712896185136189296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ESMERALDA_6
+      name: POWERUP-VERDE_6
       rect:
         serializedVersion: 2
-        x: 102
+        x: 97
         y: 0
-        width: 7
-        height: 8
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2074415ad8fb7e00800000000000000
-      internalID: 1043701355216400427
+      spriteID: aff33b0fc6c2cb080800000000000000
+      internalID: -9170405894826803206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ESMERALDA_7
+      name: POWERUP-VERDE_7
       rect:
         serializedVersion: 2
-        x: 118
+        x: 115
         y: 0
-        width: 7
-        height: 8
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d445064651504d6d0800000000000000
-      internalID: -2966740665093827507
+      spriteID: 9fe265b1b08c1f240800000000000000
+      internalID: 4823856625919340281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ESMERALDA_8
+      name: POWERUP-VERDE_8
       rect:
         serializedVersion: 2
-        x: 135
+        x: 131
         y: 0
-        width: 7
-        height: 8
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +331,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00ba711157ae9c700800000000000000
-      internalID: 561237417103174400
+      spriteID: 5528c2077d65d9af0800000000000000
+      internalID: -388058509584072107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ESMERALDA_9
+      name: POWERUP-VERDE_9
       rect:
         serializedVersion: 2
-        x: 150
+        x: 147
         y: 0
-        width: 7
-        height: 8
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,30 +353,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18f63daaddafe3ee0800000000000000
-      internalID: -1279309414165942399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ESMERALDA_10
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 0
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01ffde73a8c531760800000000000000
-      internalID: 7427381959177666320
+      spriteID: 25b1490c884b6ecd0800000000000000
+      internalID: -2529135641282471086
       vertices: []
       indices: 
       edges: []
@@ -398,17 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ESMERALDA_0: -6066223886706532277
-      ESMERALDA_1: 95711907919851135
-      ESMERALDA_10: 7427381959177666320
-      ESMERALDA_2: -2599668147244459096
-      ESMERALDA_3: 6619433973171089797
-      ESMERALDA_4: -7384038307675397224
-      ESMERALDA_5: 4986269945180768796
-      ESMERALDA_6: 1043701355216400427
-      ESMERALDA_7: -2966740665093827507
-      ESMERALDA_8: 561237417103174400
-      ESMERALDA_9: -1279309414165942399
+      POWERUP-VERDE_0: -2606693494943151906
+      POWERUP-VERDE_1: -5475636504466720544
+      POWERUP-VERDE_2: -3372222701866802864
+      POWERUP-VERDE_3: -5202535351709920716
+      POWERUP-VERDE_4: 6219969162350757784
+      POWERUP-VERDE_5: -4712896185136189296
+      POWERUP-VERDE_6: -9170405894826803206
+      POWERUP-VERDE_7: 4823856625919340281
+      POWERUP-VERDE_8: -388058509584072107
+      POWERUP-VERDE_9: -2529135641282471086
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
