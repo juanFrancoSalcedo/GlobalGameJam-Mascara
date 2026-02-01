@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class BulletVerde : Bullet 
 {
-
     int countBounces = 0;
     protected new void OnTriggerEnter2D(Collider2D other) 
     {

@@ -44,10 +44,20 @@ public class PlatformHandler : MonoBehaviour
 
     private void StartDamage(Collision2D d)
     {
-        if (!upperChecker.IsPlayerAbove())
+
+        try 
+        {
+            if (!upperChecker.IsPlayerAbove())
+                return;
+            StopDamage(d);
+            damageCoroutine = StartCoroutine(DoDamage());
+        }
+        catch (System.Exception E)
+        {
+            Debug.Log("Error"+ E.Message);
             return;
-        StopDamage(d);
-        damageCoroutine = StartCoroutine(DoDamage());
+        }
+
     }
 
     Coroutine damageCoroutine;

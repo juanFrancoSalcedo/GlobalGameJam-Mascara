@@ -141,7 +141,7 @@ MonoBehaviour:
   player: {fileID: 8936215605773577080}
   cam: {fileID: 0}
   rotationOffset: 0
-  spriteRenderer: {fileID: 0}
+  spriteRenderer: {fileID: 9091469240854073760}
 --- !u!114 &4490942705852754026
 MonoBehaviour:
   m_ObjectHideFlags: 0
