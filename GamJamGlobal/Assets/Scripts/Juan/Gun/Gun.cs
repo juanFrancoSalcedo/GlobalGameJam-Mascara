@@ -27,6 +27,7 @@ public class Gun : Singleton<Gun>
 
     public void Shot()
     {
+        ManagerAudio.Instance.PlayShot();
         Vector3 spawnPos = (muzzle != null) ? muzzle.transform.position : transform.position;
         Quaternion spawnRot = transform.rotation;
         muzzle.Play();

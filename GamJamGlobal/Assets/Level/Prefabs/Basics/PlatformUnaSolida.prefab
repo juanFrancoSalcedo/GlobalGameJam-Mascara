@@ -5082,7 +5082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlatformHandler
   data:
-    hp: 2
+    hp: 600000
   particles: {fileID: 0}
   animators: []
 --- !u!114 &1430303886327172625

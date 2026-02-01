@@ -68,7 +68,8 @@ public class Personaje : MonoBehaviour
         {
             Destroy(collision.gameObject);
             coins++;
-            if(textCoin != null)
+            ManagerAudio.Instance.PlayCoin();
+            if (textCoin != null)
                 textCoin.text = coins.ToString();
         }
 

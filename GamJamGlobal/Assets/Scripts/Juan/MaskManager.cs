@@ -11,8 +11,6 @@ public class MaskManager : Singleton<MaskManager>
     MaskModel currentMask = null;
     [SerializeField] private Image imageIcon;
     [SerializeField] private Image[] othersIcons;
-
-
     List<MaskModel> collectedMask = new List<MaskModel>();
 
     private void Start()
@@ -42,11 +40,12 @@ public class MaskManager : Singleton<MaskManager>
     {
         imageIcon.sprite = currentMask.sptMask;
         othersIcons.ToList().ForEach(i => i.gameObject.SetActive(false));
-
+        collectedMask[0].ActiveSelfVolume(currentMask.type);
         for (int i = 1; i < collectedMask.Count; i++)
         {
             othersIcons[i].sprite = collectedMask[i].sptMask;
             othersIcons[i].gameObject.SetActive(true);
+            collectedMask[i].ActiveSelfVolume(currentMask.type);
         }
     }
 
